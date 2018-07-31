@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [complexbilling]">
+  <test thread-count="5" name="Regression Test(failed)">
+    <classes>
+      <class name="tests.S1_CBP_AdminConfiguresWIDescriptions_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="startTest"/>
+          <include name="bC_HetchHetchy_Single"/>
+        </methods>
+      </class> <!-- tests.S1_CBP_AdminConfiguresWIDescriptions_Test -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [complexbilling] -->

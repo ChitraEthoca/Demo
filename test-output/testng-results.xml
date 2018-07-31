@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Step 1 Started- Loginto application]]>
+    </line>
+    <line>
+      <![CDATA[Step 1 completed. Successfully logged into application]]>
+    </line>
+    <line>
+      <![CDATA[Step 3 started- Adding new customer contact]]>
+    </line>
+    <line>
+      <![CDATA[ Step 3 failed :org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'VPEW07NG01A1384', ip: '10.32.14.233', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: false, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: true, initialBrowserUrl: http://localhost:19147/, nativeEvents: true, requireWindowFocus: true}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: e00a5fdf-f6ad-4238-8b59-a261bee00175
+*** Element info: {Using=xpath, value=//*[@name="new_customer_contact"]}]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51452" started-at="2018-07-23T19:59:19Z" finished-at="2018-07-23T20:00:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="51452" started-at="2018-07-23T19:59:19Z" finished-at="2018-07-23T20:00:11Z">
+      <class name="tests.Encryption.IE_CustomerContactPage_731_732_764_S1_Test">
+        <test-method status="PASS" signature="checkCustomerContact()[pri:0, instance:tests.Encryption.IE_CustomerContactPage_731_732_764_S1_Test@5649fd9b]" name="checkCustomerContact" duration-ms="51414" started-at="2018-07-23T19:59:19Z" finished-at="2018-07-23T20:00:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 1 Started- Loginto application]]>
+            </line>
+            <line>
+              <![CDATA[Step 1 completed. Successfully logged into application]]>
+            </line>
+            <line>
+              <![CDATA[Step 3 started- Adding new customer contact]]>
+            </line>
+            <line>
+              <![CDATA[ Step 3 failed :org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'VPEW07NG01A1384', ip: '10.32.14.233', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: false, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: true, initialBrowserUrl: http://localhost:19147/, nativeEvents: true, requireWindowFocus: true}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: e00a5fdf-f6ad-4238-8b59-a261bee00175
+*** Element info: {Using=xpath, value=//*[@name="new_customer_contact"]}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkCustomerContact -->
+      </class> <!-- tests.Encryption.IE_CustomerContactPage_731_732_764_S1_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="complexbilling" parallel="false">
+	<test name='Regression Test'>
+		<classes>
+		
+			 <!-- <class name="tests.ExternalSingleRequestFormTest" />  -->
+
+			 <class name="tests.S1_CBP_AdminConfiguresWIDescriptions_Test" /> 
+
+
+
+		</classes>
+	</test>
+</suite>
